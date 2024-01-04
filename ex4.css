@@ -1,0 +1,21 @@
+/* boxes styles */
+.boxdivRef {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+<!-- Internal CSS -->
+<style>
+ /* button styles */
+ #btn {
+    position: absolute;
+    top: 80vh;
+ }
+
+ /* boxes styles */
+ .boxdivRef {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+ }
+</style>

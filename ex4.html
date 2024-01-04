@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box game</title>
+
+  <style>
+
+    #btn {
+      position: absolute;
+      top: 80vh;
+    }
+
+
+    .boxdivRef {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="container">
+  </div>
+
+  <button type="button" id="btn">Create more boxes</button>
+</body>
+
+
+<script>
+
+
+  document.querySelector("#btn").addEventListener('click', makeBoxes);
+
+  window.addEventListener('DOMContentLoaded', makeBoxes);
+
+
+  function makeBoxes() {
+
+    const boxesDiv = document.querySelector("#container");
+
+    for (j = 0; j < 100; j++) {
+
+      const divElement = document.createElement("div");
+
+      divElement.classList.add("boxdivRef");
+
+      boxesDiv.appendChild(divElement);
+
+      let boxTopPositionVal = Math.floor(Math.random() * (400 - 0 + 1)) + 0;
+      let boxRightPositionVal = Math.floor(Math.random() * (400 - 0 + 1)) + 0;
+
+      let redValue = Math.floor(Math.random() * (255 - 0 + 1)) + 0;
+      let greenValue = Math.floor(Math.random() * (255 - 0 + 1)) + 0;
+      let blueValue = Math.floor(Math.random() * (255 - 0 + 1)) + 0;
+
+      let randomRGBValueOfColor = `rgb(${redValue}, ${greenValue}, ${blueValue})`;
+
+
+      divElement.style.left = `${boxRightPositionVal}px`;
+      divElement.style.top = `${boxTopPositionVal}px`;
+      divElement.style.backgroundColor = randomRGBValueOfColor;
+
+      divElement.addEventListener("mouseover", function (event) {
+      
+        clearBoxes(this);
+      }, false);
+    }
+  }
+
+  // function to clear boxes when mouse is hovered over
+  function clearBoxes(boxCleared) {
+    // Count number of boxes of child elements
+    let numberOfBoxes = document.querySelector("#container").childElementCount;
+    if (numberOfBoxes > 1) {
+      // clear or erase the box by calling remove() method
+      boxCleared.remove();
+    } else {
+      // otherwise alert last child on last child box
+      alert("Last child!");
+      boxCleared.remove();
+    }
+  }
+</script>
+
+</html>

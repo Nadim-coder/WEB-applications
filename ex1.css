@@ -1,0 +1,49 @@
+.header{
+  background-color: rgb(176,196,222);
+  display:flex;
+flex-wrap:wrap;
+justify-content: space-between;
+  
+
+}
+
+.header h1{
+  text-align: center;
+  text-shadow: 0 0 3px #FF0000;
+  font-size: 50pt;
+
+}
+
+.input{
+  
+  border: 2px solid black;
+  outline: #4CAF50 solid 10px;
+  margin-top:25px;  
+  padding: 20px;
+  text-align: center;
+  height: 250px;
+ 
+  
+}
+
+
+.input label{
+  font-size:20pt;
+  text-shadow: 2px 2px 5px #00CCCC;
+}
+.btn {
+  border: none;
+ margin-top:20px
+  padding: 20px 18px;
+  font-size: 14px;
+  cursor: pointer;
+  height:30px;
+  width:60px;
+ 
+}
+
+
+.btn:hover {
+  background-color: #04AA6D;
+  color: white;
+}
