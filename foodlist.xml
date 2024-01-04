@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LIST>
+  <FOOD>
+    <ITEM>Chicken Breast</ITEM>
+    <CARBS>0</CARBS>
+    <FATS>3.6</FATS>
+    <PROTEIN>31</PROTEIN>
+  </FOOD>
+  
+    <FOOD>
+    <ITEM>Salmon</ITEM>
+    <CARBS>0</CARBS>
+    <FATS>13</FATS>
+    <PROTEIN>25</PROTEIN>
+   </FOOD>
+  
+    <FOOD>
+    <ITEM>Quinoa</ITEM>
+    <CARBS>39</CARBS>
+    <FATS>1.6</FATS>
+    <PROTEIN>8</PROTEIN>
+  </FOOD>
+  
+    <FOOD>
+    <ITEM>Sweet Potato</ITEM>
+    <CARBS>26</CARBS>
+    <FATS>0.2</FATS>
+    <PROTEIN>2</PROTEIN>
+    
+  </FOOD>
+  
+    <FOOD>
+    <ITEM>Broccoli</ITEM>
+    <CARBS>6</CARBS>
+    <FATS>0.3</FATS>
+    <PROTEIN>2.6</PROTEIN>
+    
+  </FOOD>
+  
+    <FOOD>
+    <ITEM>Avocado</ITEM>
+    <CARBS>12</CARBS>
+    <FATS>21</FATS>
+    <PROTEIN>3</PROTEIN>
+    
+  </FOOD>
+  
+    <FOOD>
+    <ITEM>Eggs</ITEM>
+    <CARBS>1.8</CARBS>
+    <FATS>14</FATS>
+    <PROTEIN>13</PROTEIN>
+    
+  </FOOD>
+  
+  <FOOD>
+    <ITEM>Brown Rice</ITEM>
+    <CARBS>45</CARBS>
+    <FATS>1.6</FATS>
+    <PROTEIN>5</PROTEIN>
+    
+  </FOOD>
+  
+    <FOOD>
+    <ITEM>Black Beans</ITEM>
+    <CARBS>41</CARBS>
+    <FATS>0.5</FATS>
+    <PROTEIN>15</PROTEIN>
+    
+  </FOOD>
+  
+    <FOOD>
+    <ITEM>Oats</ITEM>
+    <CARBS>28</CARBS>
+    <FATS>4</FATS>
+    <PROTEIN>6</PROTEIN>
+    
+  </FOOD>
+  
+    <FOOD>
+    <ITEM>Greek Yogurt</ITEM>
+    <CARBS>9</CARBS>
+    <FATS>10</FATS>
+    <PROTEIN>23</PROTEIN>
+    
+  </FOOD>
+  
+    <FOOD>
+    <ITEM>Almonds</ITEM>
+    <CARBS>6</CARBS>
+    <FATS>14</FATS>
+    <PROTEIN>6</PROTEIN>
+    
+  </FOOD>
+  
+    <FOOD>
+    <ITEM>Spincah</ITEM>
+    <CARBS>1</CARBS>
+    <FATS>0.1</FATS>
+    <PROTEIN>0.9</PROTEIN>
+  </FOOD>
+  
+    <FOOD>
+    <ITEM>Ground Beef</ITEM>
+    <CARBS>0</CARBS>
+    <FATS>16</FATS>
+    <PROTEIN>22</PROTEIN>
+    
+  </FOOD>
+      
+      <FOOD>
+    <ITEM>Cauliflower</ITEM>
+    <CARBS>5</CARBS>
+    <FATS>0.3</FATS>
+    <PROTEIN>2</PROTEIN>
+    
+  </FOOD>
+  
+    <FOOD>
+    <ITEM>Blueberries</ITEM>
+    <CARBS>21</CARBS>
+    <FATS>0.5</FATS>
+    <PROTEIN>1</PROTEIN>
+    
+  </FOOD>
+  
+    <FOOD>
+    <ITEM>Turkey Breast</ITEM>
+    <CARBS>0</CARBS>
+    <FATS>1</FATS>
+    <PROTEIN>26</PROTEIN>
+    
+  </FOOD>
+  
+    <FOOD>
+    <ITEM>Peanut Butter</ITEM>
+    <CARBS>7</CARBS>
+    <FATS>16</FATS>
+    <PROTEIN>7</PROTEIN>
+    
+  </FOOD>
+  
+    <FOOD>
+    <ITEM>Brussel Sprouts</ITEM>
+    <CARBS>12</CARBS>
+    <FATS>0.3</FATS>
+    <PROTEIN>4</PROTEIN>
+    
+  </FOOD>
+  
+    <FOOD>
+    <ITEM>Cottage Cheese</ITEM>
+    <CARBS>6</CARBS>
+    <FATS>2</FATS>
+    <PROTEIN>28</PROTEIN>
+    
+  </FOOD>
+  
+    <FOOD>
+    <ITEM>Chickpeas</ITEM>
+    <CARBS>45</CARBS>
+    <FATS>8</FATS>
+    <PROTEIN>15</PROTEIN>
+    
+  </FOOD>
+  
+    <FOOD>
+    <ITEM>Cheese</ITEM>
+    <CARBS>0.4</CARBS>
+    <FATS>9</FATS>
+    <PROTEIN>7</PROTEIN>
+    
+  </FOOD>
+ </LIST>
